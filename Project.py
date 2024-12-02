@@ -1,11 +1,12 @@
 class Project:
 
-    def _init_(self, name, date):
+    def __init__(self, name, date):
         self.name = name
         self.date = date
 
-    def getName(self) -> str:
+    def getProjName(self) -> str:
         return self.name
 
+    def getProjDate(self):
+        return self.date
 
-myProj = Project()
