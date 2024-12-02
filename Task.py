@@ -5,10 +5,10 @@ class Task(ProjectClass):
 
     def __init__(self, proj_name, date, task_name):
         super().__init__(proj_name, date)
-        self.name = task_name
+        self.task_name = task_name
 
     def getInfo(self):
-        print(f'ProjName: {self.proj_name}, '
+        print(f'ProjName: {self.name}, '
               f'Proj_date: {self.date}, '
               f'task_name: {self.task_name}')
 
