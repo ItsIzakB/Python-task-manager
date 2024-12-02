@@ -1,4 +1,4 @@
-class Project:
+class ProjectClass:
 
     def __init__(self, name, date):
         self.name = name

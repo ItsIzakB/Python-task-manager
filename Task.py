@@ -1,6 +1,6 @@
 import self as self
 
-import Project
+from Project import ProjectClass
 class Task(Project):
 
     def __init__(self, proj_name, date, task_name):
@@ -15,4 +15,6 @@ class Task(Project):
 
 myT = Task('Proj A', '11', 'T1')
 
-myT.get
+print(myT.getProjName())
+print(myT.getProjDate())
+myT.getInfo()
