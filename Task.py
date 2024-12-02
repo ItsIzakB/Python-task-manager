@@ -12,9 +12,16 @@ class Task(ProjectClass):
               f'Proj_date: {self.date}, '
               f'task_name: {self.task_name}')
 
+    def taskAtr(self, *args):
+        taskAtrs = args
+
+        return taskAtrs
+
 
 myT = Task('Proj A', '11', 'T1')
 
 print(myT.getProjName())
 print(myT.getProjDate())
 myT.getInfo()
+
+print(myT.taskAtr('difficult', 'urgent'))
