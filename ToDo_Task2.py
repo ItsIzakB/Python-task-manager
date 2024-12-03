@@ -5,3 +5,8 @@ class ToDo_Task(Task):
 
         super().__init__(proj_name, date, task_name)
 
+
+
+myTD_task = ToDo_Task("HW", "11/23/2022", 'Calc 1 HW')
+
+myTD_task.getInfo()
