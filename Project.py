@@ -8,3 +8,9 @@ class ProjectClass:
         self.tasks.append(task)
     def getProjName(self) -> str:
         return self.name
+
+
+
+
+print (__name__)
+

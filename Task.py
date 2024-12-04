@@ -19,10 +19,4 @@ class Task():
         return taskAtrs
 
 
-# myT = Task('Proj A', '11', 'T1')
-#
-# print(myT.getProjName())
-# print(myT.getProjDate())
-# myT.getInfo()
-#
-# print(myT.taskAtr('difficult', 'urgent'))
+
