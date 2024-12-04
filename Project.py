@@ -13,7 +13,7 @@ class ProjectClass:
 
     def __next__(self):
         if (self.index>= len(self.tasks)):
-            return StopIteration
+            raise StopIteration
         else:
             task = self.tasks[self.index]
             self.index+=1
