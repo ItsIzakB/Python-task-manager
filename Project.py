@@ -1,4 +1,3 @@
-import Task
 class ProjectClass:
 
     def __init__(self, name):
@@ -10,7 +9,4 @@ class ProjectClass:
         return self.name
 
 
-
-
-print (__name__)
 
