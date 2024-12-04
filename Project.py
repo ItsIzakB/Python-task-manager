@@ -9,4 +9,6 @@ class ProjectClass:
         return self.name
 
 
+print("this is project class")
+
 

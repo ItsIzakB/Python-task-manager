@@ -6,6 +6,9 @@ def main():
 
     task1 = tsk.Task('11/23/2025', ' 1500 Applications')
 
-    task1.getInfo()
+    print(isinstance(task1.get_info()))
 
+
+if __name__ == 'main': #TODO Need this to work
+   main()
 

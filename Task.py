@@ -17,3 +17,6 @@ class Task():
         taskAtrs = args
 
         return taskAtrs
+
+
+print("this is task class")
