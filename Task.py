@@ -3,16 +3,17 @@ import self as self
 from Project import ProjectClass
 class Task():
 
-    def __init__(self, due_date, task_name):
-        self.due_date = due_date
+    def __init__(self, task_name, due_date):
         self.task_name = task_name
+        self.due_date = due_date
 
-    def getInfo(self):
+    def get_info(self):
         print(
-              f'due_date: {self.due_date}, '
-              f'task_name: {self.task_name}')
+            f'task_name: {self.task_name},'
+            f'due_date: {self.due_date}, '
+              )
 
-    def taskAtr(self, *args):
+    def task_atr(self, *args):
         taskAtrs = args
 
         return taskAtrs

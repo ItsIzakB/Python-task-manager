@@ -6,7 +6,6 @@ def main():
 
     task1 = tsk.Task('11/23/2025', ' 1500 Applications')
 
-
     task1.getInfo()
 
 
