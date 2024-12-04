@@ -8,6 +8,14 @@ class TaskClass():
         self.due_date = due_date
         self.atrs = []
 
+    def get_info_and_atrs(self,func):
+        def wrapper():
+            func()
+            print(self.atrs, endl=' ')
+
+        return wrapper
+
+    @get_info_and_atrs
     def get_info(self):
         print(
             f'task_name: {self.task_name}, '
@@ -18,11 +26,8 @@ class TaskClass():
         self.atrs.append(args)
 
 
-    def get_info_and_atrs(self,func):
-        def wrapper():
-            func()
-            for i in range(0, len(self.atrs), 1):
-                atr = self.atrs[i]
+
+
 
 
 
