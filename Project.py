@@ -21,7 +21,7 @@ class ProjectClass:
 
 
 
-
-print("this is project class")
+if '__name__' == '__main__':
+    print("this is project class")
 
 

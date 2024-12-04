@@ -17,5 +17,5 @@ class Task():
     def add_atrs(self, *args):
         self.atr.append(args)
 
-
-print("this is task class")
+if '__name__' == '__main__':
+    print("this is task class")
