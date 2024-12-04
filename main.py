@@ -10,6 +10,8 @@ def main():
 
     task2 = tsk.TaskClass('04/12/2025', 'LowCalProj Finish')
 
+    task1.add_atrs('non-urgent')
+
     print(type(task1))
 
     myP.add_task(task1)
