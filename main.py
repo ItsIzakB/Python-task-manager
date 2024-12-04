@@ -4,21 +4,20 @@ def main():
 
     myP = pj.ProjectClass("SWE Internship Grind")
 
-    task1 = tsk.Task('11/23/2025', ' 1500 Applications')
+    print(myP.get_proj_name())
 
-    task2 = tsk.Task('04/12/2025', 'LowCalProj Finish')
+    task1 = tsk.TaskClass('11/23/2025', ' 1500 Applications')
 
-    print(isinstance(task1))
+    task2 = tsk.TaskClass('04/12/2025', 'LowCalProj Finish')
 
-    myP.addTask(task1)
+    print(isinstance(task1, tsk.TaskClass))
 
-    myP.addTask(task2)
+    myP.add_task(task1)
+
+    myP.add_task(task2)
 
     for task in myP:
         task.get_info()
 
-
-
-if __name__ == 'main': #TODO Need this to work
-   main()
-
+if __name__ == 'main':
+    main()

@@ -3,9 +3,9 @@ class ProjectClass:
     def __init__(self, name):
         self.name = name
         self.tasks = []
-    def addTask(self, task):
+    def add_task(self, task):
         self.tasks.append(task)
-    def getProjName(self) -> str:
+    def get_proj_name(self) -> str:
         return self.name
     def __iter__(self):
         self.index = 0

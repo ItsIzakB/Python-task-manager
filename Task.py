@@ -1,7 +1,7 @@
 import self as self
 
 from Project import ProjectClass
-class Task():
+class TaskClass():
 
     def __init__(self, task_name, due_date):
         self.task_name = task_name

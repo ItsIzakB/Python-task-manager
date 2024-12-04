@@ -1,5 +1,5 @@
-from Task import Task
-class ToDo_Task(Task):
+from Task import TaskClass
+class ToDo_Task(TaskClass):
 
     def __init__(self, proj_name, date, task_name):
 
