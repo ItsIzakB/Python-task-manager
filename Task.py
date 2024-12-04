@@ -1,10 +1,11 @@
 import self as self
 
 from Project import ProjectClass
-class Task(ProjectClass):
+class Task():
 
     def __init__(self, proj_name, date, task_name):
-        super().__init__(proj_name, date)
+        proj = ProjectClass(proj_name)
+        self.date = date
         self.task_name = task_name
 
     def getInfo(self):
