@@ -15,7 +15,6 @@ class Task():
               )
 
     def add_atrs(self, *args):
-
         self.atr.append(args)
 
 
