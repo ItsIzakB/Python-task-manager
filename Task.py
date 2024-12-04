@@ -14,9 +14,9 @@ class Task():
               )
 
     def task_atr(self, *args):
-        taskAtrs = args
+        task_atrs = args
 
-        return taskAtrs
+        return task_atrs
 
 
 print("this is task class")
