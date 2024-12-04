@@ -6,6 +6,7 @@ class Task():
     def __init__(self, task_name, due_date):
         self.task_name = task_name
         self.due_date = due_date
+        self.atr = []
 
     def get_info(self):
         print(
@@ -13,10 +14,9 @@ class Task():
             f'due_date: {self.due_date}, '
               )
 
-    def task_atr(self, *args):
-        task_atrs = args
+    def add_atrs(self, *args):
 
-        return task_atrs
+        self.atr.append(args)
 
 
 print("this is task class")
