@@ -6,7 +6,6 @@ def get_info_and_atrs(func):
     def wrapper():
         func()
         print(self.atrs, end=' ')
-
     return wrapper
 class TaskClass():
 
