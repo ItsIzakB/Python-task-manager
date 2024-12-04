@@ -22,7 +22,6 @@ class ProjectClass:
 
 
 
-
 print("this is project class")
 
 
