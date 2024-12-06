@@ -9,3 +9,6 @@ class ToDo_Task(TaskClass):
 myTD_task = ToDo_Task("HW", "11/23/2022", 'Calc 1 HW')
 
 myTD_task.getInfo()
+
+if __name__ = '__main__':
+    main()
