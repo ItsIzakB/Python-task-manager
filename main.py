@@ -13,6 +13,7 @@ def main():
     task1.add_atrs('non-urgent')
 
     print(type(task1))
+    
 
     myP.add_task(task1)
     myP.add_task(task2)
