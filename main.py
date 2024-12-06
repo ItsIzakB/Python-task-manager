@@ -15,7 +15,6 @@ def main():
     print(type(task1))
 
     myP.add_task(task1)
-
     myP.add_task(task2)
 
     for task in myP:
