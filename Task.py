@@ -14,7 +14,6 @@ class TaskClass():
         self.due_date = due_date
         self.atrs = []
 
-
     @get_info_and_atrs
     def get_info(self):
         print(
