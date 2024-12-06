@@ -7,6 +7,7 @@ def get_info_and_atrs(func):
         func()
         print(self.atrs, end=' ')
     return wrapper
+    
 class TaskClass():
 
     def __init__(self, task_name, due_date):
