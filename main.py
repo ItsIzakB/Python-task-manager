@@ -23,5 +23,9 @@ def main():
         print(type(task))
         task.get_info()
 
+
+    for atr in task1:
+        print(next(task1.get_atrs()))
+
 if __name__ == '__main__':
     main()
