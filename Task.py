@@ -26,5 +26,9 @@ class TaskClass():
     def add_atrs(self, *args):
         self.atrs.append(args)
 
+    def get_atrs(self):
+        for atr in self.atrs:
+            yield atr
+
 if __name__ == '__main__':
     print("this is task class")
