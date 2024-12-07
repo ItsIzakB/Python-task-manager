@@ -3,7 +3,7 @@ import self as self
 from Project import ProjectClass
 
 def get_info_and_atrs(func):
-    def wrapper():
+    def wrapper(self):
         func()
         print(self.atrs, end=' ')
     return wrapper
