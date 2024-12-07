@@ -5,6 +5,7 @@ class ProjectClass:
         self.tasks = []
     def add_task(self, task):
         self.tasks.append(task)
+        sorted(self.tasks, key=lambda temp_task: temp_task.due_date)
     def get_proj_name(self) -> str:
         return self.name
     def __iter__(self):

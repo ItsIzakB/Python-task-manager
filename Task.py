@@ -3,9 +3,10 @@ import self as self
 from Project import ProjectClass
 
 def get_info_and_atrs(func):
-    def wrapper():
-        func()
-        print(self.atrs, end=' ')
+    def wrapper(self, *args, **kwargs):
+        func(self, *args, **kwargs)
+        if self.atrs:
+            print(self.atrs, end=' ')
     return wrapper
     
 class TaskClass():
@@ -24,6 +25,10 @@ class TaskClass():
 
     def add_atrs(self, *args):
         self.atrs.append(args)
+
+    def get_atrs(self):
+        for atr in self.atrs:
+            yield atr
 
 if __name__ == '__main__':
     print("this is task class")
