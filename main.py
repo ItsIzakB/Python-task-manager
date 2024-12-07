@@ -12,7 +12,6 @@ def main():
 
     task1.add_atrs('non-urgent', 'self-paced', 'draining')
 
-
     print(type(task1))
     
     myP.add_task(task1)
