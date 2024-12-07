@@ -10,7 +10,8 @@ def main():
     task2 = tsk.TaskClass('04/12/2025', 'LowCalProj Finish')
     task3 = tsk.TaskClass('04/12/2025', '100 Connections')
 
-    task1.add_atrs('non-urgent')
+    task1.add_atrs('non-urgent', 'self-paced', 'draining')
+
 
     print(type(task1))
     
@@ -23,9 +24,8 @@ def main():
         print(type(task))
         task.get_info()
 
-
-    for atr in task1:
-        print(next(task1.get_atrs()))
+    for atr in task1.get_atrs():
+        print(atr)
 
 if __name__ == '__main__':
     main()
