@@ -8,7 +8,7 @@ def main():
 
     task1 = tsk.TaskClass('11/23/2025', ' 1500 Applications')
     task2 = tsk.TaskClass('04/12/2025', 'LowCalProj Finish')
-    task3 = tsk.TaskClass('04/12/2025', '100 Connections')
+    task3 = tsk.TaskClass('04/11/2025', '100 Connections')
 
     task1.add_atrs('non-urgent', 'self-paced', 'draining')
 
